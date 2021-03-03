@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div>
+			<form method="POST" action="/posts" enctype="multipart/form-data">
+				<label for="username">username</label>
+				<input type="text" id="username" name="username" />
+				<label for="location">Location</label>
+				<input type="text" id="location" name="location" />
+				<label for="comment">comment</label>
+				<input type="text" id="comment" name="comment" />
+				<label for="likes">like</label>
+				<input type="number" id="likes" name="likes" />
+				<input type="file" id="image" name="image" />
+
+				<button type="submit">Add</button>
+			</form>
+		</div>
+	</body>
+</html>
